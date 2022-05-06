@@ -19,6 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.generation.caiv.model.Postagem;
 import com.generation.caiv.repository.PostagemRepository;
+/*
+ * nesta classe controlamos o caminho para que o post seja feito, atualizado e excluído. 
+ */
 
 @RestController
 @RequestMapping("/postagem")
