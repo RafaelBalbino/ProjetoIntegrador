@@ -15,7 +15,7 @@ import javax.validation.constraints.NotBlank;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table (name= "tb_usuario")
+@Table (name = "tb_usuario")
 public class Usuario {
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
@@ -26,7 +26,7 @@ public class Usuario {
 	
 	@NotBlank
 	@Email
-	private String  usuario;
+	private String usuario;
 	
 	@NotBlank
 	private String senha;
@@ -36,6 +36,7 @@ public class Usuario {
 	@OneToMany (mappedBy = "usuario", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties ("usuario")
 	private List <Postagem> postagem;
+	
 	public Long getId() {
 		return id;
 	}

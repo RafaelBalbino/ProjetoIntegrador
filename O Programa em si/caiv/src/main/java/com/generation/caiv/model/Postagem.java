@@ -24,11 +24,11 @@ public class Postagem {
 	private Long id;
 
 	@NotNull
-	@Size (max = 100, message = "O título no máximo 100 caracteres.")
+	@Size (max = 100, message = "O título tem no máximo 100 caracteres.")
 	private String titulo;
 	
 	@NotNull
-	@Size (max = 2500, message = "O texto tem no máximo 2500 caracteres.")
+	@Size (max = 3000, message = "O texto tem no máximo 3000 caracteres.")
 	private String texto;
 	
 	private String referencia;
