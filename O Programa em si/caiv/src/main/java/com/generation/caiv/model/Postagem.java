@@ -40,6 +40,10 @@ public class Postagem {
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Tema tema;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("postagem")
+	private Usuario usuario;
 
 	public Long getId() {
 		return id;
@@ -87,5 +91,10 @@ public class Postagem {
 
 	public void setReferencia(String referencia) {
 		this.referencia = referencia;
+		
+	}
+
+	public Date getData_hora() {
+		return data_hora;
 	}
 }
