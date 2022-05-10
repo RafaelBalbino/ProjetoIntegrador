@@ -4,14 +4,14 @@
 
 ODS - **Erradicação da Pobreza**
 
-Nesse projeto o nosso tema principal é compartilhar o máximo de informações com pessoas em situação de 
+Neste projeto o nosso tema principal é compartilhar o máximo de informações com pessoas em situação de 
 vulnerabilidade para que elas possam ter acesso à educação, moradia e alimentação, com o objetivo de 
 erradicar a pobreza.
 
 O nosso site será voltado para pessoas que estão em situação de vulnerabilidade e empresas que desejam ajudar essas 
-pessoas, nossa motivação surge da necessidade de divulgação de informações, pois acreditamos que quanto mais 
-educação e informação as pessoas tiverem, mais conseguiremos reduzir esse número, tendo em vista que há uma 
-ligação entre a educação das pessoas e seu status socioeconômico.
+pessoas. Nossa motivação surge da necessidade de divulgação de informações, pois acreditamos que quanto mais 
+educação e informação as pessoas tiverem, mais conseguiremos reduzir o número de pessoas em situação precária, tendo 
+em vista que há uma ligação entre a educação das pessoas e seu status socio-econômico.
 
  Vamos criar uma rede social com a intenção de fornecer um acesso limpo, sem propagandas, que contenham informações 
  personalizadas por meio de cadastros, identificando os perfis e mandando as oportunidades de forma direta para 
