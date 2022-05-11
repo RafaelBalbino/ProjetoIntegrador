@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.generation.caiv.model.Postagem;
 import com.generation.caiv.repository.PostagemRepository;
 
-
 @RestController
 @RequestMapping("/postagem")
 @CrossOrigin("*")
