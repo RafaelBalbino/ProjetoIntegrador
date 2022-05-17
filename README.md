@@ -13,13 +13,15 @@ pessoas. Nossa motivação surge da necessidade de divulgação de informações
 educação e informação as pessoas tiverem, mais conseguiremos reduzir o número de pessoas em situação precária, tendo 
 em vista que há uma ligação entre a educação das pessoas e seu status socio-econômico.
 
- Vamos criar uma rede social com a intenção de fornecer um acesso limpo, sem propagandas, que contenham informações 
- personalizadas por meio de cadastros, identificando os perfis e mandando as oportunidades de forma direta para 
- as pessoas se inteirarem de assuntos que sejam pertinentes a ela.
+Vamos criar uma rede social com a intenção de fornecer um acesso limpo, sem propagandas, que contenham informações 
+personalizadas por meio de cadastros, identificando os perfis e mandando as oportunidades de forma direta para 
+as pessoas se inteirarem de assuntos que sejam pertinentes a ela.
 
- Porque como mencionamos, as informações precisam chegar nessas pessoas de alguma forma, e por meio de uma rede 
- social a gente consegue identificar os perfis e direcionar, por exemplo, um projeto de moradia que está 
- surgindo na região dela e ela tem o perfil para se cadastrar nesse projeto, com isso ajudando uma pessoa 
- a sair de uma situação de aluguel ou pobreza.
+Porque como mencionamos, as informações precisam chegar nessas pessoas de alguma forma, e por meio de uma rede 
+social a gente consegue identificar os perfis e direcionar, por exemplo, um projeto de moradia que está 
+surgindo na região dela e ela tem o perfil para se cadastrar nesse projeto, com isso ajudando uma pessoa 
+a sair de uma situação de aluguel ou pobreza.
 
 *ODS - Objetivo de Desenvolvimento Sustentável*
+
+*Documentação do nosso projeto - [Documentação CAIV.pdf](https://github.com/RafaelBalbino/ProjetoIntegrador/files/8708649/Documentacao.CAIV.pdf)*
