@@ -11,8 +11,11 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import io.swagger.v3.oas.annotations.media.Schema;
 
 @Entity
 @Table (name = "tb_usuario")
@@ -24,8 +27,9 @@ public class Usuario {
 	@NotBlank
 	private String nome;
 	
-	@NotBlank
-	@Email
+	@Schema(example = "Exemplo de e-mail - email@email.com.br")
+	@NotBlank (message = "O atributo Usuário é obrigatório!")
+	@Email(message = "O atributo usuário deve ser um email válido!")
 	private String usuario;
 	
 	@NotBlank
