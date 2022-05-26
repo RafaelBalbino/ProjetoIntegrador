@@ -22,8 +22,8 @@ social a gente consegue identificar os perfis e direcionar, por exemplo, um proj
 surgindo na região dela e ela tem o perfil para se cadastrar nesse projeto, com isso ajudando uma pessoa 
 a sair de uma situação de aluguel ou pobreza.
 
-*ODS - Objetivo de Desenvolvimento Sustentável
+*ODS - Objetivo de Desenvolvimento Sustentável*
 
-*Link do nosso projeto hospedado no site Heroku - https://projetocaiv.herokuapp.com/
+*Link do nosso projeto hospedado no site Heroku - https://projetocaiv.herokuapp.com/*
 
-*Documentação do nosso projeto - [Documentação CAIV.pdf](https://github.com/RafaelBalbino/ProjetoIntegrador/files/8708649/Documentacao.CAIV.pdf)
+*Documentação do nosso projeto - [Documentação CAIV.pdf](https://github.com/RafaelBalbino/ProjetoIntegrador/files/8708649/Documentacao.CAIV.pdf)*
