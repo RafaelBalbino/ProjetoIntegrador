@@ -31,8 +31,6 @@ public class Postagem {
 	@Size (max = 3000, message = "O texto tem no máximo 3000 caracteres.")
 	private String texto;
 	
-	private String referencia;
-	
 	@Temporal (TemporalType.TIMESTAMP)
 	private Date data_hora = new java.sql.Date(System.currentTimeMillis());
 
@@ -83,15 +81,6 @@ public class Postagem {
 
 	public void setTema(Tema tema) {
 		this.tema = tema;
-	}
-
-	public String getReferencia() {
-		return referencia;
-	}
-
-	public void setReferencia(String referencia) {
-		this.referencia = referencia;
-		
 	}
 
 	public Date getData_hora() {

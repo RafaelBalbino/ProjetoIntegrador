@@ -23,11 +23,7 @@ public class Tema {
 		private Long id;
 		
 		@NotBlank
-		@Size (min = 2 , max = 50, message = "O tema tem no mínimo 2 caractéres e no máximo 50.")
-		public String nome;
-		
-		@NotBlank
-		@Size (min = 5 , max = 100, message = "A descrição tem no mínimo 5 caractéres e no máximo 100.")
+		@Size (min = 3 , max = 100, message = "A descrição tem no mínimo 3 caractéres e no máximo 100.")
 		public String descricao;
 		
 		@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
@@ -42,14 +38,6 @@ public class Tema {
 			this.id = id;
 		}
 		
-		public String getNome() {
-			return nome;
-		}
-
-		public void setNome(String nome) {
-			this.nome = nome;
-		}
-
 		public String getDescricao() {
 			return descricao;
 		}

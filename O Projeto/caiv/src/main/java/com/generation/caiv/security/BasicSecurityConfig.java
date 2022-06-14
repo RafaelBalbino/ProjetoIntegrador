@@ -34,9 +34,13 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers("/usuario/logar").permitAll() // De qualquer lugar, você terá acesso a  login
+			http.authorizeRequests()
+				.antMatchers("/**").permitAll()
+		        .antMatchers("/usuario/logar").permitAll() // De qualquer lugar, você terá acesso a  login
 				.antMatchers("/usuario/cadastrar").permitAll() // e cadastro já que as rotas estão abertas
 				.antMatchers(HttpMethod.OPTIONS).permitAll() /* Permite que as rotas estejam acessíveis com GET Permite saber quais métodos estão abertos na documentação da API e que estão abertos nela e é possível utilizar eles.*/
+				.antMatchers(HttpMethod.GET, "/postagem").permitAll()
+				.antMatchers(HttpMethod.GET, "/tema").permitAll()
 				.anyRequest().authenticated() // Para outras requisições, tem que está ou cadastrado ou em memória
 				.and().httpBasic() // HttpBasic = CRUD | Define que só será aceito métodos CRUD
 				.and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)// < Define que toda requisição tem começo, meio e fim. Uma por vez e ajuda a prevenir ataques cibernéticos e invasões com várias requisições de uma formaTipo quando expira o token em um site como na plataforma da GenerationBrasil.

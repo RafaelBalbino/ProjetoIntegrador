@@ -39,6 +39,12 @@ public class UsuarioController {
 		return repository.findAll();
 	}
 
+	@GetMapping("/{id}")
+	public ResponseEntity<Usuario> getById(@PathVariable Long id) {
+		return repository.findById(id).map(resp -> ResponseEntity.ok(resp))
+				                      .orElse(ResponseEntity.notFound().build());
+	}
+	
 	@PostMapping("/logar")
 	public ResponseEntity<UsuarioLogin> login(@RequestBody Optional<UsuarioLogin> user) {
 		return usuarioService.autenticaUsuario(user).map(resposta -> ResponseEntity.ok(resposta))
