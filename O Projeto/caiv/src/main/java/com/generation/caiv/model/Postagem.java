@@ -34,7 +34,7 @@ public class Postagem {
 	@Temporal (TemporalType.TIMESTAMP)
 	private Date data_hora = new java.sql.Date(System.currentTimeMillis());
 
-	@NotNull
+	
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Tema tema;
@@ -66,13 +66,13 @@ public class Postagem {
 	public void setTexto(String texto) {
 		this.texto = texto;
 	}
-
-	public Date getData() {
+	
+	public Date getData_hora() {
 		return data_hora;
 	}
 
-	public void setData(Date data) {
-		this.data_hora = data;
+	public void setData_hora(Date data_hora) {
+		this.data_hora = data_hora;
 	}
 
 	public Tema getTema() {
@@ -83,7 +83,14 @@ public class Postagem {
 		this.tema = tema;
 	}
 
-	public Date getData_hora() {
-		return data_hora;
+	public Usuario getUsuario() {
+		return usuario;
 	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+
+	
 }
