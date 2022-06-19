@@ -26,7 +26,7 @@ public class Tema {
 		@Size (min = 3 , max = 100, message = "A descrição tem no mínimo 3 caractéres e no máximo 100.")
 		public String descricao;
 		
-		@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL)
+		@OneToMany(mappedBy = "tema", cascade = CascadeType.REFRESH)
 		@JsonIgnoreProperties("tema")
 		public List <Postagem> postagem;
 		
